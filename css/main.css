@@ -1,0 +1,144 @@
+
+/* alternate color row*/
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+#t2 tr::before{
+  content:counter(crt) '.';
+  counter-increment: crt; 
+ 
+  border-bottom-style: solid;
+  
+  border-bottom-color: rgb(68,155,150);
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial;
+
+  font-size: 1rem ;
+  padding-left: 5px;
+  
+  
+
+}
+
+
+.container-table100 {
+  box-sizing: border-box;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrap-table100 {
+  width: 1250px;
+  margin: 50px auto 50px auto;
+  box-sizing: border-box;
+}
+
+table{
+  /* width: 100%; */
+  border-spacing: 0px;
+  border-collapse: collapse;
+
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-color: rgb(68,155,150);
+  
+  border-width: 5px;
+
+}
+
+#t1{
+border-bottom-style: none;
+}
+
+tr{
+  /* box-sizing: border-box; */
+  /* border-style: solid;
+  border-color:rgb(68, 155, 150);
+  border-width: 5px 5px 5px 5px; */
+  padding:0px;
+  margin: 0px;
+/* width: 100%; */
+}
+
+td {
+  box-sizing: border-box;
+  padding:0px;
+  margin: 0px;
+  font-family: 'Arial';
+  font-size: 1rem;
+}
+
+.vat_font{
+  text-align: center;
+  font-family: 'Arial'; 
+  font-weight:bold;
+
+}
+
+.vat_price-font{
+  text-align: center;
+  font-family: 'Arial';
+  
+ 
+}
+
+.right_left_border{
+  
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(68,155,150);
+
+/*   
+  border-right-color: rgb(68,155,150);
+  border-left-width: 5px;
+  border-left-color: rgb(68,155,150); */
+
+  width: 979px;
+}
+
+.accounting{
+  box-sizing: border-box;
+  margin: 0px;
+  padding-left: 50px; 
+  text-align: left;
+  font-family: 'Righteous', cursive; 
+  font-size: 2rem;  
+  color: rgb(68,155,150);
+  width: 1002px;
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+  border-color: rgb(68,155,150);;
+  
+}
+
+.pricing{
+  box-sizing: border-box;
+  font-family: 'Righteous', cursive; 
+  font-size: 1.7rem; 
+  color: rgb(95,95,95);
+  width: 152px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
